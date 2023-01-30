@@ -40,7 +40,7 @@ def get_args():
     parser.add_argument('--device', type=str, default='cuda:0', help='The device to run the program')
     parser.add_argument('--log_file_name', type=str, default=None, help='The log file name')
     parser.add_argument('--optimizer', type=str, default='sgd', help='the optimizer')
-    parser.add_argument('--temperature', type=float, default=2, help='the temperature parameter for contrastive loss')
+    parser.add_argument('--temperature', type=float, default=2, help='the temperature parameter for knowledge distillation')
     parser.add_argument('--attacker_type', type=str, default='untargeted_diverse', help='attacker type (either untargeted or untargeted_diverse)')
     parser.add_argument('--attacker_ratio', type=float, default=0.2, help='ratio for number of attackers')
     parser.add_argument('--noise_ratio', type=float, default=0.8, help='noise ratio for label flipping (0 to 1)')
