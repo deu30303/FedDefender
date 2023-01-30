@@ -2,7 +2,7 @@
 
 Pytorch Implementation of FedDefender: Client-Side Attack-Tolerant Federated Learning
 * Unique client-side defense strategy, FedDefender, that can train robust local models against malicious attacks from adversaries
-* Designing an attack-tolerant local meta update that helps discover noise-tolerant parameters for local models by utilizing a synthetically corrupted training set.
+* Designing an attack-tolerant local meta update that helps discover noise-tolerant parameters for local models by utilizing a synthetically corrupted training set
 * Introducing an attack-tolerant global knowledge distillation technique that efficiently aligns the local model’s knowledge to the global data distribution while reducing the negative effects of false information in the possibly-corrupted global model
 
 
