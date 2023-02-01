@@ -7,7 +7,7 @@ Pytorch Implementation of FedDefender: Client-Side Attack-Tolerant Federated Lea
 
 
 ## Model architecture ##
-<center><img src="./fig/model.png"> </center>
+<center><img src="./figure/model.png"> </center>
 
 ## Usage ##
 ```
