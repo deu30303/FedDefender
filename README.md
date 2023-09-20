@@ -9,6 +9,13 @@ Pytorch Implementation of FedDefender: Client-Side Attack-Tolerant Federated Lea
 ## Model architecture ##
 <center><img src="./figure/model.png"> </center>
 
+## Required packages ##
+- torch==1.9.0
+- torchvision==0.10.0
+- scikit-learn==0.24.2
+- scipy==1.3.0
+- numpy==1.19.2
+
 ## Usage ##
 ```
 usage: main.py [-h] [--model MODEL] [--dataset DATASET] [--net_config NET_CONFIG] [--partition PARTITION] [--batch-size BATCH_SIZE]
